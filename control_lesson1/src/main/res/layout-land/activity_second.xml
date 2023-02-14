@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="ПЕРВАЯ КНОПКА" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="ЧЕТВЕРТАЯ КНОПКА" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="ВТОРАЯ КНОПКА" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="ПЯТАЯ КНОПКА" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="ТРЕТЬЯ КНОПКА" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:insetLeft="5dp"
+            android:insetRight="5dp"
+            android:text="ШЕСТАЯ КНОПКА" />
+    </TableRow>
+</TableLayout>
